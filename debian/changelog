@@ -1,0 +1,11 @@
+cyrus-sasl2 (2.1.27.1-deepin) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Deepin Developer <deepin-dev@deepin.org>  Wed, 10 Aug 2022 21:11:51 +0800
+
+cyrus-sasl2 (2.1.27.1-deepin) stable; urgency=medium
+
+  * ['Autobuild release-candidate']
+
+ -- Deepin Packages Builder <packages@deepin.org>  Wed, 10 Aug 2022 16:35:53 +0800
