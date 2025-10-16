@@ -4,8 +4,10 @@ Priority: optional
 Maintainer: Debian Cyrus Team <team+cyrus@tracker.debian.org>
 Uploaders: Ondřej Surý <ondrej@debian.org>,
 Standards-Version: 4.3.0.1
-Build-Depends: chrpath,
-               debhelper-compat (= 12),
+Build-Depends: debhelper-compat (= 12),
+               libpod-pom-view-restructured-perl:native <!nodoc>,
+Build-Depends-Arch:
+               chrpath,
                default-libmysqlclient-dev <!pkg.cyrus-sasl2.nosql>,
                docbook-to-man,
                groff-base,
@@ -16,12 +18,12 @@ Build-Depends: chrpath,
                libkrb5-dev <!pkg.cyrus-sasl2.nogssapi>,
                libldap2-dev <!pkg.cyrus-sasl2.noldap>,
                libpam0g-dev,
-               libpod-pom-view-restructured-perl:native,
                libpq-dev <!pkg.cyrus-sasl2.nosql>,
                libsqlite3-dev,
                libssl-dev,
                po-debconf,
-               python3-sphinx-rtd-theme:native,
+               python3-sphinx:native <!nodoc>
+Build-Depends-Indep: python3-sphinx-rtd-theme,
 Build-Conflicts: heimdal-dev
 Vcs-Browser: https://salsa.debian.org/debian/cyrus-sasl2
 Vcs-Git: https://salsa.debian.org/debian/cyrus-sasl2.git
@@ -46,6 +48,7 @@ Description: Cyrus SASL - administration programs for SASL users database
 Package: cyrus-sasl2-doc
 Section: doc
 Architecture: all
+Build-Profiles: <!nodoc>
 Depends: ${misc:Depends},
          sphinx-rtd-theme-common
 Multi-Arch: foreign
