@@ -30,6 +30,14 @@
 0030-testsuite-Replace-MD5-with-OpenSSL-EVP-implementation.patch
 0031-checkpw-Replace-MD5-with-OpenSSL-EVP-implementation.patch
 0032-Add-with_pgsql-include-postgresql-to-include-path.patch
+0033-Check-for-gssapi_krb5.h-before-testing-a-resulting-value.patch
 0034-channel-binding-gssapi-gss-spnego.patch
 0035-Add-support-for-setting-max-ssf-0-to-GSS-SPNEGO-1.patch
 0035-Add-support-for-setting-max-ssf-0-to-GSS-SPNEGO-2.patch
+0036-Prevent-linking-via-intersphinx.patch
+0037-Extend-the-time_t-format-specifiers-to-64-bit.patch
+0038-Prevent-six-import.patch
+0039-Harmonize-MD5-signatures-with-OpenSSL.patch
+0040-Harmonize-getsubopt-casts-with-glibc.patch
+0041-digestmd5-Free-RC4-cipher.patch
+0042-gcc-15.patch
