@@ -1,3 +1,11 @@
+cyrus-sasl2 (2.1.28+dfsg1-10deepin1) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-107161 (high) - digestmd5: fix heap overflow in
+    add_to_challenge() when value needs escaping   Upstream:
+    https://github.com/cyrusimap/cyrus-sasl/pull/892
+
+ -- deepin-ci-robot <packages@deepin.org>  Mon, 19 Oct 2026 20:40:39 +0800
+
 cyrus-sasl2 (2.1.28+dfsg1-10) unstable; urgency=medium
 
   * Team upload
