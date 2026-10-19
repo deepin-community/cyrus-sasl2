@@ -41,3 +41,4 @@
 0040-Harmonize-getsubopt-casts-with-glibc.patch
 0041-digestmd5-Free-RC4-cipher.patch
 0042-gcc-15.patch
+CVE-2026-107161.patch
